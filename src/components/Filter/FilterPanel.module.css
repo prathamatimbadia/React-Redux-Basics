@@ -1,0 +1,35 @@
+.filterPanel{
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.filterPanel > h4,
+.filterPanel > h3{
+    text-decoration: underline 3px solid lightgray;
+}
+
+.filterPanel__customerRating,
+.filterPanel__category{
+    margin: 5px;
+    font-size: 13px;
+    width: 139px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+    label:hover,
+.filterPanel__customerRating:hover,
+.filterPanel__category:hover{
+    color:orange;
+}
+
+
+.filterPanel__customerRating:active,
+.filterPanel__category:active{
+    color:orange;
+}
+
+ ul{
+    text-align: initial;
+}

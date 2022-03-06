@@ -1,0 +1,4 @@
+/* get rid of hidden spacing added by browsers*/
+*{
+  margin:0;
+}

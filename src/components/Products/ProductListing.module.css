@@ -1,0 +1,28 @@
+.productListing {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    min-width: 75%;
+    width: 80%;
+    float: right;
+    justify-content: center;
+    text-align: center;
+    border-left: 2px solid lightgray;
+}
+
+.productListing__products {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    justify-content: center;
+}
+
+.productListing>span {
+    width: 80%;
+    text-align: center;
+}
+
+.productListing>span:hover {
+    color: #08aea7;
+    text-decoration: underline;
+}
