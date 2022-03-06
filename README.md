@@ -19,6 +19,7 @@ Future Scope includes -
 * Add product to cart feature.
 * Adding test cases.
 * Refactoring the project.
+* Adding responsiveness.
 
 ## Available Scripts
 
