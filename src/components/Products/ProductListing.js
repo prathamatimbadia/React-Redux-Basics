@@ -17,7 +17,9 @@ const ProductListing = ({products,areProductsFiltered}) => {
   }
   return (
     <div className={styles.productListing}>
-   {areProductsFiltered?(<span><h4 onClick={handleResetAllFilters}>Return to all products</h4></span>):(<h4>Our Products</h4>)}
+   {areProductsFiltered?(
+    <h4 className={styles.productListing__return} onClick={handleResetAllFilters}>Return to all products</h4>)
+    :(<h4>Our Products</h4>)}
     <div className={styles.productListing__products}>{products.map((item) => (
         <Product key={item.id} product={item} />
       ))}
