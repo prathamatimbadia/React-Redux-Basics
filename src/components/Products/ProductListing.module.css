@@ -19,12 +19,12 @@
     justify-content: center;
 }
 
-.productListing>span {
+.productListing>h4 {
     width: 80%;
     text-align: center;
 }
 
-.productListing>span:hover {
+.productListing__return:hover {
     color: #08aea7;
     text-decoration: underline;
 }
